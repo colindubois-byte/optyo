@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-code-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "colindubois-byte/claude-code"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "deal-context@claude-code-plugins": true
+  }
+}
