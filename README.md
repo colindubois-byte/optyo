@@ -2,7 +2,15 @@
 
 This repo holds the persistent per-deal context tracked by the `deal-context` Claude Code plugin (from [colindubois-byte/claude-code](https://github.com/colindubois-byte/claude-code)).
 
-The plugin is auto-enabled here via `.claude/settings.json` — open Claude Code in this repo and the `/deal-init`, `/deal-refresh`, and `/deal-status` commands are available immediately, no manual install step needed.
+`.claude/settings.json` here declares the marketplace and enables the plugin, but that alone doesn't install it — Claude Code still needs an explicit install step before `/deal-init` etc. are recognized. **The first time you open a Claude Code session in this repo**, run:
+
+```
+/plugin marketplace add colindubois-byte/claude-code
+/plugin install deal-context@claude-code-plugins
+/reload-plugins
+```
+
+After that one-time install, `/deal-init`, `/deal-refresh`, and `/deal-status` are available in every future session opened against this repo — no need to repeat these commands.
 
 ## Getting started
 
