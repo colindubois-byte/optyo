@@ -2,7 +2,7 @@
 
 This repo holds the persistent per-deal context originally designed as the `deal-context` Claude Code plugin (from [colindubois-byte/claude-code](https://github.com/colindubois-byte/claude-code)). The commands and agent are vendored directly into this repo's `.claude/` folder (`.claude/commands/`, `.claude/agents/`) rather than installed via the plugin marketplace — that avoids a per-session/per-environment install step that doesn't reliably persist here. `/deal-init`, `/deal-refresh`, and `/deal-status` are recognized automatically in any Claude Code session opened against this repo — nothing to install, no `/plugin` commands, no setup step.
 
-If you ever update the plugin source in `colindubois-byte/claude-code`, re-copy `plugins/deal-context/commands/*.md` and `plugins/deal-context/agents/*.md` into this repo's `.claude/commands/` and `.claude/agents/` to pick up the changes.
+A `SessionStart` hook (`.claude/hooks/session-start.sh`) keeps those vendored files current automatically: at the start of every session it pulls the latest `commands/*.md` and `agents/account-analyst.md` from `plugins/deal-context/` on `colindubois-byte/claude-code`'s `main` branch and overwrites the local copies if anything changed. If the fetch fails (no network, GitHub unreachable), it leaves the existing copies in place and never blocks the session from starting. No manual re-copying needed — just make sure changes to the plugin source get merged to `main` on `claude-code`, and the next `optyo` session picks them up.
 
 ## Getting started
 
