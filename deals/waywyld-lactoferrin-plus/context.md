@@ -1,3 +1,12 @@
+## 2026-07-28 (refresh — Monday.com, Gmail, Calendar, Pocket)
+
+- **7/27, 4:52pm PDT** (previously not logged — happened after last refresh's cutoff) — Colin replied to Samantha's "thanks, great chatting" note: *"No problem! Let's plan on touching base next Monday after you review the proposal. Have a great week."* Sent to Samantha, cc Charlie + Riley. This partially covers the prior action-log recommendation (same-day reply, kept the thread alive) but is softer than what was recommended — no direct question about the proposal, no offer of a call to Charlie, and no explicit ask to lock a signing date. "Next Monday" = **8/3**, which is also the proposal's target **kickoff date** — so the plan as stated is to review-and-discuss on the same day the deck assumes work would already be starting.
+- **As of today (7/28):** No reply from Samantha or Charlie since 7/27 2:43pm. Colin's 4:52pm message is the last word on the thread. No calendar invite exists yet for the "next Monday" touch-base — it's a verbal placeholder only, not on anyone's calendar.
+- Monday.com Pipeline item shows `updated_at` of 7/28 3:26pm, but no updates/comments logged (`get_updates` returns none) and all column values (stage=Proposal, Phase 1/2 $2,000/$2,600, 4% bonus, close probability/date blank, MRR $2,514.29) are unchanged from 7/27 — looks like a metadata touch, not a real CRM change. Stale pricing mismatch vs. the actual deck still uncorrected.
+- Leads board record unchanged (still "Meeting Set", last updated 7/22).
+- Checked Pocket for any new Waywyld call activity since 7/27 — none found; the only 7/27 recording in range was an unrelated internal call (Home Gym Con exhibitor review), not this account.
+- Net: deal is in a holding pattern. The ball is in Waywyld's court to review the proposal, but the "next Monday" checkpoint isn't locked to an actual meeting, which risks it quietly slipping past 8/3 with no kickoff and no decision.
+
 ## 2026-07-27 (refresh — Monday.com, Gmail, Calendar, Drive)
 
 First full `/deal-refresh`. No updates/comments logged on either Monday.com item — all real signal came from Gmail, Calendar, and Drive:

@@ -7,9 +7,10 @@
 - Activity — Meeting, 2026-07-27 12:00 (Colin DuBois): https://optyo-squad.monday.com/boards/6023894595/pulses/12644211700
 
 ## Gmail
-- Thread: "OPTYO x WAYWYLD LACTOFERRIN+ Introduction" (recap email, proposal sent, Samantha's reply) — id 19f8bb3a93f83b2e
+- Thread: "OPTYO x WAYWYLD LACTOFERRIN+ Introduction" (recap email, proposal sent, Samantha's reply, Colin's 7/27 4:52pm follow-up proposing a "next Monday" touch-base) — id 19f8bb3a93f83b2e
 - Gemini notes email, 7/22 call — id 19f8ae7cfd4930e3
 - Gemini notes email, 7/27 call — id 19fa52518d89a9cb
+- Calendar accept notification from Samantha, 7/27 call — id 19f8c9b04e57158a
 
 ## Calendar
 - Intro call, 7/22 10:00–10:30am PDT: https://www.google.com/calendar/event?eid=MWQxaWl1ZThzYXRzNWkxdnBmbnU1cXZhZWkgY29saW4uZHVib2lzQG9wdHlvLm5ldA
